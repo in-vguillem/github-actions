@@ -4,7 +4,7 @@ export default function sum(...numbers: number[]) {
 
 if (import.meta.vitest) {
   const {describe, expect, it} = import.meta.vitest;
-  // test
+  // test2
   describe("#sum", () => {
     it("returns 0 with no numbers", () => {
       expect(sum()).toBe(0);
