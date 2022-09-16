@@ -4,9 +4,9 @@ on:
     branches:
       - "master"
 env:
-  GH_TOKEN: ${{ secrets.token }}
-  NPM_TOKEN: ${{ secrets.token }}
-  NODE_AUTH_TOKEN: ${{ secrets.token }}
+  GH_TOKEN: ${{ secrets.TOKEN }}
+  NPM_TOKEN: ${{ secrets.TOKEN }}
+  NODE_AUTH_TOKEN: ${{ secrets.TOKEN }}
 jobs:
   release:
     # if: "!contains(github.event.commits[0].message, 'Initial commit')"
